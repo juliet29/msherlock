@@ -5,7 +5,7 @@ configfile: "/msherlock/config/test.yaml"
 
 # msd_path = "../../../../msd/workflow/rules/cleanup.smk" # NOTE: in production, use github
 
-msd_github = github("juliet29/msd2", path="workflow/Snakefile", tag="v0.1.0")
+msd_github = github("juliet29/msd2", path="workflow/Snakefile", tag="v0.1.2")
 
 module msd:
     snakefile: msd_github

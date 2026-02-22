@@ -20,14 +20,5 @@
 # Input data
 !inputs/
 
-# Output data
-!run/
-# DO ignore local test files
-
-run/results/geometry/snakemake/test/*
-run/results/eplus/snakemake/test/*
-
-!run/results/geometry/
-!run/results/eplus/
 
 
