@@ -1,0 +1,12 @@
+pathvars:
+  ids_loc: "msherlock/inputs/valid_ids.csv"
+  msd_config_loc: "msherlock/msdconfig/test.yaml"
+
+  input_loc: "results/geometry/snakemake/test" # TODO: change polymap to match this -> input and output loc are the same
+  output_loc: "results/geometry/snakemake/test"
+  models_loc: "results/eplus/snakemake/test"
+  results_loc: "results/analysis/snakemake/test"
+
+## start and stop for selecting cases to analyze
+start_ix: 0
+num_items: 5

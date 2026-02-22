@@ -1,0 +1,14 @@
+from snakemake.utils import min_version
+min_version("6.0")
+
+configfile: "msherlock/config/test.yaml"
+
+# msd_path = "../../../../msd/workflow/rules/cleanup.smk" # NOTE: in production, use github
+
+msd_github = github("juliet29/msd2", path="workflow/Snakefile", tag="v0.1.0")
+
+module msd:
+    snakefile: msd_github
+    config: config
+
+use rule * from msd as msd_*

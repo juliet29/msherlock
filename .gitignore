@@ -1,0 +1,49 @@
+# Custom  - This will be cloned into a container using Apptainer on Sherlock
+# We use a white listing appproach 
+
+# ---- Ignore all top level content
+/*
+
+
+# ---- Include essentials
+!README.md
+!.gitignore
+
+# Config files 
+!epconfig/
+!msdconfig/
+!config/
+
+# Snakemake
+!workflow/
+
+# Input data
+!inputs/
+
+# Output data
+!run/
+# DO ignore local test files
+run/results/geometry/snakemake/test
+run/results/eplus/snakemake/test
+
+
+
+# justfile
+# main.py
+# scripts/
+# uv.lock
+# dag
+#
+#
+#
+#
+# # Python-generated files
+# __pycache__/
+# *.py[oc]
+# build/
+# dist/
+# wheels/
+# *.egg-info
+#
+# # Virtual environments
+# .venv
