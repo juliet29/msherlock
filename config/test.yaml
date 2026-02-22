@@ -1,6 +1,6 @@
 pathvars:
-  ids_loc: "inputs/valid_ids.csv"
-  msd_config_loc: "msdconfig/test.yaml"
+  ids_loc: "/msherlock/inputs/valid_ids.csv"
+  msd_config_loc: "/msherlock/msdconfig/test.yaml"
 
   input_loc: "results/geometry/snakemake/test" # TODO: change polymap to match this -> input and output loc are the same
   output_loc: "results/geometry/snakemake/test"

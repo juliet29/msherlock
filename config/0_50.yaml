@@ -1,6 +1,6 @@
 pathvars:
-  ids_loc: "inputs/valid_ids.csv"
-  msd_config_loc: "msdconfig/test.yaml"
+  ids_loc: "/msherlock/inputs/valid_ids.csv"
+  msd_config_loc: "/msherlock/msdconfig/test.yaml"
 
   # True outputs of process
   input_loc: "results/geometry/snakemake/all" # TODO: this is a vestige..

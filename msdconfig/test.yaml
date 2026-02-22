@@ -1,5 +1,5 @@
 room_height: 3 # m
-weather_file: "inputs/weather/CA_PALO-ALTO-AP_724937S_20.epw"
+weather_file: "/msherlock/inputs/weather/CA_PALO-ALTO-AP_724937S_20.epw"
 
 analysis_period:
   name: "JuneJuly"
