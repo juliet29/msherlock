@@ -1,7 +1,7 @@
 from snakemake.utils import min_version
 min_version("6.0")
 
-configfile: "msherlock/config/test.yaml"
+configfile: "config/test.yaml"
 
 # msd_path = "../../../../msd/workflow/rules/cleanup.smk" # NOTE: in production, use github
 
