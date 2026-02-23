@@ -1,0 +1,14 @@
+pathvars:
+  ids_loc: "/msherlock/inputs/valid_ids.csv"
+  msd_config_loc: "/msherlock/msdconfig/test.yaml"
+
+  # True outputs of process
+  input_loc: "results/geometry/snakemake/3k4k" # TODO: this is a vestige..
+  output_loc: "results/geometry/snakemake/3k4k" # TODO change to match others..
+
+  models_loc: "results/eplus/snakemake/3k4k"
+  results_loc: "results/analysis/snakemake/3k4k"
+
+## start and stop for selecting cases to analyze
+start_ix: 3001
+num_items: 4000
