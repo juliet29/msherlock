@@ -11,4 +11,4 @@ pathvars:
 
 ## start and stop for selecting cases to analyze
 start_ix: 4001
-num_items: 5000
+num_items: 1000
